@@ -16,7 +16,7 @@ enum Commands {
         // TODO: wrapper around weblab urls, validating that they're
         //  really from weblab, and providing access to what course and assignment
         //  they are from
-        url: String
+        url: String,
     },
     /// Exits the current environment. This deletes the folder
     /// and all temporary files.
@@ -34,20 +34,36 @@ enum Commands {
     Config,
 
     Test,
-    Build
+    Build,
 }
 
 fn main() {
     let cli: Cli = Cli::parse();
 
     match cli.command {
-        Commands::Start { .. } => { todo!() }
-        Commands::End => { todo!() }
-        Commands::Login => { todo!() }
-        Commands::Push => { todo!() }
-        Commands::Pull => { todo!() }
-        Commands::Config => { todo!() }
-        Commands::Test => { todo!() }
-        Commands::Build => { todo!() }
+        Commands::Start { .. } => {
+            todo!()
+        }
+        Commands::End => {
+            todo!()
+        }
+        Commands::Login => {
+            todo!()
+        }
+        Commands::Push => {
+            todo!()
+        }
+        Commands::Pull => {
+            todo!()
+        }
+        Commands::Config => {
+            todo!()
+        }
+        Commands::Test => {
+            todo!()
+        }
+        Commands::Build => {
+            todo!()
+        }
     }
 }

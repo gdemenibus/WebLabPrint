@@ -1,3 +1,5 @@
+[![Github Workflows](https://img.shields.io/github/workflow/status/jonay2000/weblab-rs/weblab-rs?logo=github&style=for-the-badge)](https://github.com/gdemenibus/WebLabPrint/actions/workflows/ci.yml)
+
 # WebLabPrint
 A program to fetch data from the TU Delft's Weblab site, edit it on your machine and uploaded it to the desired assignment.
 
